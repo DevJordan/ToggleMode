@@ -1,0 +1,20 @@
+name: ToggleMode
+main: com.teeepeee.togglemode.Toggler
+version: 1
+description: Dynamically update your online-mode
+author: TeeePeee
+
+commands:
+  modetoggle:
+    description: Force toggle the online-state of the server.
+  mode:
+    description: Check the online-state of the server.
+
+permissions:
+  togglemode.toggle:
+    description: The permission needed to toggle the online mode.
+    default: op
+  togglemode.check:
+    description: The permission needed to check the online mode.
+    default: op
+    
